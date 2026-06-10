@@ -1,6 +1,15 @@
 # Dilna's Portfolio
 
-A personal portfolio website built with React and Vite, showcasing my work, skills, and contact information.
+A modern and fully responsive personal portfolio website built using React.js, designed to create a strong professional online presence and provide an interactive experience for visitors across all devices.
+
+## Features
+
+- Responsive design across mobile, tablet, and desktop
+- Dark theme UI
+- Smooth scroll navigation
+- Animated skill progress bars
+- Mobile-friendly hamburger menu
+- Reusable React components
 
 ## Sections
 
@@ -14,8 +23,7 @@ A personal portfolio website built with React and Vite, showcasing my work, skil
 
 - React 19
 - Vite 8
-- CSS (component-scoped)
-- Smooth scroll navigation
+- JavaScript, HTML5, CSS3 (component-scoped)
 
 ## Getting Started
 
