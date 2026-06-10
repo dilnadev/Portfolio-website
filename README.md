@@ -25,17 +25,4 @@ A modern and fully responsive personal portfolio website built using React.js, d
 - Vite 8
 - JavaScript, HTML5, CSS3 (component-scoped)
 
-## Getting Started
 
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-## Build
-
-```bash
-npm run build
-```
