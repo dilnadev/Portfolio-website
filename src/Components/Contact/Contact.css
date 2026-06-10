@@ -42,7 +42,8 @@ gap: 30px;
     max-width: 550px;
     color: #D8D8D8;
     font-size: 20px;
-    line-height: 35px;
+    line-height: 25px;
+    text-align:justify;
 }
 .contact-details{
     display: flex;
@@ -70,7 +71,8 @@ font-weight: 500;
 }
 .contact-right input{
     border: none;
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     height: 78px;
     padding-left: 20px;
     border-radius: 4px;
@@ -80,7 +82,8 @@ font-weight: 500;
 font-size: 20px;
 }
 .contact-right textarea{
-    width: 650px;
+    width: 100%;
+    max-width: 650px;
     color: white;
     border: none;
     padding: 25px;
@@ -104,6 +107,15 @@ font-size: 20px;
     transform: scale(1.1);
     transition: 0.3s;
 }
+@media(max-width:1200px){
+    .contact{
+        margin: 80px 80px;
+    }
+    .contact-section{
+        gap: 60px;
+    }
+}
+
 @media(max-width:768px){
     .contact{
         gap: 50px;
@@ -132,7 +144,7 @@ font-size: 20px;
         gap: 20px;
     }
 .contact-details{
-    width: 25px;
+    width: 100%;
 }
 .contact-right label{
     font-size: 20px;

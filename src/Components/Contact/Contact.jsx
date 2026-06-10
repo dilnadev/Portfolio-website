@@ -45,8 +45,7 @@ const Contact = () => {
         <div className="contact-left">
           <h1>Let's talk</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
-            optio a quia est quo iure?
+            I'm always open to new opportunities and conversations. Send me a message and let's connect.
           </p>
           <div className="contact-details">
             <div className="contact-detail">

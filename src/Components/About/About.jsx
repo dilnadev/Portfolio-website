@@ -17,9 +17,10 @@ const About = () => {
             <div className="about-right">
                 <div className="about-para">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum perferendis, ipsam ab praesentium doloribus amet?
+                        I build responsive, scalable web applications that solve real user problems from authentication systems and dynamic UIs to REST APIs and database design. I focus on writing clean, maintainable code that works reliably in production.
                     </p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores at natus veniam, fuga sunt facere!</p>
+             
+                    
                 </div>
                 <div className="about-skills">
                     <div className="about-skill"> <p> HTML & CSS</p><hr style={{width:'80%'}} /> </div>

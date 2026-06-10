@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import './Navbar.css'
-import logo from '../../assets/assets/logo.svg'
+import logo from '../../assets/assets/logo1.svg'
 import underline from '../../assets/assets/nav_underline.svg'
 import  menu_open from '../../assets/assets/menu_open.svg'
 import  menu_close from '../../assets/assets/menu_close.svg'
@@ -21,7 +21,7 @@ const closeMenu=() =>{
 
   return (
  <div className='navbar'>
- <img src={logo} alt="" />
+  <img src={logo} alt="" />
  <img src={menu_open} onClick={openMenu}  className='nav-mob-open' alt=""  />
 <ul ref={menuRef} className="nav-menu">
   <img className='nav-mob-close' src={menu_close} onClick={closeMenu} alt="" />

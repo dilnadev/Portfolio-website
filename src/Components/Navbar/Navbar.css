@@ -3,6 +3,13 @@
     align-items: center;
     justify-content: space-between;
     margin: 20px 170px;
+    
+}
+.logo{
+    width: 180px;
+    height: auto;
+    display: block;
+    
 }
 .nav-menu{
     display: flex;
@@ -42,6 +49,12 @@
 .nav-mob-open{
     display: none;
 } 
+
+@media(max-width:1200px){
+.navbar{
+    margin: 20px 80px;
+}
+}
 
 @media(max-width:768px){
 .navbar{

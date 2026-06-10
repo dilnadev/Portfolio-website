@@ -9,7 +9,7 @@ const Hero = () => {
     <div id='home' className='hero'>
 <img src={profile_img} alt="" />
 <h1><span>I'm Alex Bennett,</span>frontend developer based in USA</h1>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime saepe a at nisi inventore commodi.</p>
+<p>I build responsive, scalable, and user-friendly web applications using the MERN stack. With experience in full-stack development, REST APIs, authentication systems, and business-focused web solutions, I transform ideas into functional digital products.</p>
    <div className='hero-action'>
     <div className="hero-connect"><a className="anchor-link" href="#contact">
         Connect with me </a>

@@ -34,9 +34,10 @@
 .about-para{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     font-size: 24px;
     font-weight: 500;
+    line-height: 40px;
 }
 .about-skills{
     display: flex;
@@ -63,6 +64,12 @@ font-weight: 500;
     border-radius: 50px;
     background: linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
 }
+@media(max-width:1200px){
+    .about{
+        margin: 80px 80px;
+    }
+}
+
 @media(max-width:768px){
     .about{
         gap: 80px;
